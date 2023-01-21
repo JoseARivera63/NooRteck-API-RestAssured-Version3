@@ -13,5 +13,5 @@ Feature: Get One Existing Employee by id API
       | <first_name> | <last_name> | <job_id> |
 
     Examples: 
-      | region  | apiName              | statusCode | employee_id | first_name | last_name    | job_id  |
-      | "scrum" | "Employee:GetOneEmp" | "200"      |         2240 | Nicolas    | HappyNewYear | IT_Prog |
+      | region  | apiName              | statusCode | employee_id | first_name | last_name | job_id |
+      | "scrum" | "Employee:GetOneEmp" | "200"      |         114 | Wilfredo   | Ward      | PU_MAN |
